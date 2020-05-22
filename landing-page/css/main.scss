@@ -1,0 +1,22 @@
+@import "header";
+@import "quienes-somos";
+@import "our-work.scss";
+@import "ubicacion";
+@import "mediaquerys.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 100%;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

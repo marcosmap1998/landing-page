@@ -1,0 +1,98 @@
+@media screen and (max-width:670px){
+
+    .our-work{
+        text-align: center;
+        .texto{
+            width: 90%;
+            align-items: center;
+        }
+    }
+
+}
+
+@media screen and (max-width:570px){
+
+    .our-work{
+        text-align: center;
+        .texto{
+            width: 90%;
+            align-items: center;
+            p{
+                line-height: 30px;
+            }
+            button{
+                margin-top: 10px;
+            }
+        }
+    }
+
+    .ubicacion{
+        h2{
+            text-align: center;
+            margin-bottom: 35px;
+            font-size: 32px;
+        }
+        .mapa{
+            width: 100%;
+            overflow: hidden;
+            iframe{
+                width: 100%;
+                max-height: 500px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width:470px){
+
+    header{
+        nav{
+            padding: 20px;
+            ul{
+                li{
+                    margin: 0 auto;
+                    align-self: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .our-work{
+        text-align: center;
+        .texto{
+            width: 90%;
+            align-items: center;
+            h2{
+                margin-top: -2%;
+                margin-bottom: 5%;
+                font-size: 30px;
+            }
+            p{
+                line-height: 17px;
+            }
+            button{
+                margin-top: 10px;
+                width: 90%;
+            }
+        }
+    }
+
+    .ubicacion{
+        h2{
+            text-align: center;
+            margin-bottom: 35px;
+            font-size: 30px;
+        }
+        .mapa{
+            width: 100%;
+            overflow: hidden;
+            iframe{
+                width: 100%;
+                max-height: 400px;
+            }
+        }
+    }
+
+}

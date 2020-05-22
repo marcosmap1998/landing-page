@@ -1,0 +1,25 @@
+.ubicacion{
+    width: 100%;
+    padding: 40px;
+    h2{
+        text-align: center;
+        margin-bottom: 35px;
+        font-size: 32px;
+    }
+    .mapa{
+        width: 100%;
+        overflow: hidden;
+        iframe{
+            width: 100%;
+            max-height: 600px;
+        }
+    }
+}
+
+
+footer{
+    width: 100%;
+    background: #ADC3CC;
+    padding: 20px;
+    text-align: center;
+}
